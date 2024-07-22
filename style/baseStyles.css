@@ -1,0 +1,21 @@
+/* BASE STYLES */
+html {
+    --accent-color: #11A2F3;
+    --accent-color-dark: #0d8fda;
+  
+    overflow-x: hidden;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    color: #292C33;
+    background-color: #EEEFF3;
+    overflow-x: hidden;
+    position: relative;
+  }
+  
+  .bg {
+    position: absolute;
+    z-index: -1;
+  }
+  

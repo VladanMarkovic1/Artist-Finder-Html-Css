@@ -1,0 +1,51 @@
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px;
+    animation: fade-in 0.4s;
+  }
+  
+  .logo {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 30px;
+  }
+  
+  .nav {
+  
+  }
+  
+  .links {
+    display: flex;
+    column-gap: 45px;
+  }
+  
+  .link-item {
+  
+  }
+  
+  .link {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.2s;
+  }
+  
+  .link:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .link--btn {
+    color: #fff;
+    background-color: var(--accent-color);
+    padding: 10px 18px;
+    border-radius: 3px;
+    transition: all 0.2s;
+  }
+  
+  .link--btn:hover {
+    background-color: var(--accent-color-dark);
+  }
